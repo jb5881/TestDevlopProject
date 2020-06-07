@@ -1,0 +1,12 @@
+cat:
+  - name: "xueqiu"
+    color: "black"
+    age: 5
+    sex: "female"
+    hair: "short"
+dog:
+  - name: "youyou"
+    color: "white"
+    age: 6
+    sex: "male"
+    hair: "long"
