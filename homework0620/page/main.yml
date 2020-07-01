@@ -1,0 +1,24 @@
+- 添加成员:
+    - by: xpath
+      locator: //*[@node-type="addmember"]
+      action: click
+  导入通讯录:
+    - by: xpath
+      locator: //*[@node-type="import"]
+      action: click
+  成员加入:
+    - by: CSS_SELECTOR
+      locator: .index_service_cnt_itemWrap:nth-child(3)
+      action: click
+  消息群发:
+    - by: CSS_SELECTOR
+      locator: .index_service_cnt_itemWrap:nth-child(4)
+      action: click
+  客户联系:
+    - by: CSS_SELECTOR
+      locator: .index_service_cnt_itemWrap:nth-child(5)
+      action: click
+  打卡:
+    - by: CSS_SELECTOR
+      locator: .index_service_cnt_itemWrap:nth-child(6)
+      action: click

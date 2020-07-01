@@ -1,0 +1,54 @@
+- 姓名:
+    - by: id
+      locator: username
+      action: send
+      value: "{value}"
+  别名:
+    - by: id
+      locator: memberAdd_english_name
+      action: send
+      value: "{value}"
+  帐号:
+    - by: id
+      locator: memberAdd_acctid
+      action: send
+      value: "{value}"
+  手机国际区号:
+    - by: CSS_SELECTOR
+      locator: .ww_telInput_zipCode_input .ww_inputText
+      action: send
+      value: "{value}"
+  手机号码:
+    - by: id
+      locator: memberAdd_phone
+      action: send
+      value: "{value}"
+  座机:
+    - by: id
+      locator: memberAdd_telephone
+      action: send
+      value: "{value}"
+  邮箱:
+    - by: id
+      locator: memberAdd_mail
+      action: send
+      value: "{value}"
+  地址:
+    - by: id
+      locator: memberEdit_address
+      action: send
+      value: "{value}"
+  保存:
+    - by: xpath
+      locator: //a[text()="保存"]
+      action: click
+  取消:
+    - by: css_selector
+      locator: .js_btn_cancel
+      action: send
+      value: "{value}"
+  保存并添加:
+    - by: css_selector
+      locator: .js_btn_continue
+      action: send
+      value: "{value}"

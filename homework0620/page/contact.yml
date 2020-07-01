@@ -1,0 +1,46 @@
+- 添加成员:
+    - by: css_selector
+      locator: .js_add_member
+      action: click
+  批量导入导出:
+    - by: css_selector
+      locator: .ww_btn_PartDropdown_left
+      action: click
+  设置所在部门:
+    - by: css_selector
+      locator: .js_move
+      action: click
+  删除:
+    - by: xpath
+      locator: //*[text()="删除"]
+      action: click
+  删除确认:
+    - by: xpath
+      locator: //*[@class="qui_btn ww_btn ww_btn_Blue"]
+      action: click
+  勾选框:
+    - by: xpath
+      locator: //*[text()="name"]/../../td[1]
+      action: click
+      value: value
+  姓名:
+    - by: css selector
+      locator: .member_colRight_memberTable_td:nth-child(2)
+      action: attribute
+  职务:
+    - by: css_selector
+      locator: .member_colRight_memberTable_td:nth-child(3)
+      action: attribute
+      value: value
+  部门:
+    - by: css_selector
+      locator: .member_colRight_memberTable_td:nth-child(4)
+      action: attribute
+  手机:
+    - by: css_selector
+      locator: .member_colRight_memberTable_td:nth-child(5)
+      action: attribute
+  邮箱:
+    - by: css_selector
+      locator: .member_colRight_memberTable_td:nth-child(6)
+      action: attribute

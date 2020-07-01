@@ -1,0 +1,9 @@
+- 上传文件:
+    - by: id
+      locator: js_upload_file_input
+      action: send
+      value: value
+  获取文件名:
+    - by: id
+      locator: upload_file_name
+      action: text

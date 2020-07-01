@@ -1,0 +1,24 @@
+- 首页:
+    - by: id
+      locator: menu_index
+      action: click
+  通讯录:
+    - by: id
+      locator: menu_contacts
+      action: click
+  应用管理:
+    - by: id
+      locator: menu_apps
+      action: click
+  客户联系:
+    - by: id
+      locator: menu_customer
+      action: click
+  管理工具:
+    - by: id
+      locator: menu_manageTools
+      action: click
+  我的企业:
+    - by: id
+      locator: menu_profile
+      action: click
