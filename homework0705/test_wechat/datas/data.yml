@@ -1,0 +1,14 @@
+add_contacts:
+  - name: test31
+    gender: 女
+    phone_num: 13211111131
+  - name: test32
+    gender: 女
+    phone_num: 13211111132
+  - name: test33
+    gender: 女
+    phone_num: 13211111133
+del_contacts:
+  - name: test31
+  - name: test32
+  - name: test33
